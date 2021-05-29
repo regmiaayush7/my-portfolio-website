@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
+import Intro from './Intro'
 import Profile from './Profile'
 import Work from './Work'
 import Education from './Education'
@@ -11,8 +12,8 @@ const Home = () => {
                 <div className= "w3-third">
                 <Profile />
                 </div>
-
                 <div className="w3-twothird">
+                    <Intro />
                     <Work />
                     <Education />
                 </div>
