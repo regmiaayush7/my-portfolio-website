@@ -10,7 +10,7 @@ const Work = () => {
                         project => {         
                             return(  
                         <div className="w3-container">
-                        <h5 className="w3-opacity"><b>{project.title}</b>/<b><a href={project.link} target="_blank" rel="noreferrer" ><i className="fa fa-hand-o-right fa-fw w3-large w3-text-teal"></i>{project.linkname}</a></b></h5>
+                        <h5 className="w3-opacity"><b>{project.title}</b>/<b><a href={project.link} target="_blank" rel="noreferrer" > Link:<i className="fa fa-hand-o-right fa-fw w3-large w3-text-teal"></i>{project.linkname}</a></b></h5>
                         <h6 className="w3-text-teal"><i className="fa fa-code fa-fw w3-margin-right"></i><span className="w3-tag w3-teal w3-round">{project.language}</span></h6>
                         <p>{project.description}</p>
                         <hr/>
