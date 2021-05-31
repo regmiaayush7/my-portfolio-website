@@ -32,7 +32,7 @@ export const education = [
     {
     schoolname: 'St. Xavier’s College Maitighar, Kathmandu',
     time: '2016-2021',
-    course:'Bachelor in Information Management'
+    course:'Bachelors in Information Management'
     },
     {
     schoolname: 'Global College Of Management ',
