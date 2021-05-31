@@ -1,0 +1,15 @@
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation i {
+    margin: 5px 35px 5px 5px;
+    cursor: pointer;
+}
+
+.navigation p{
+    padding-left: 5px;
+    display: inline;
+    font-size: small;
+}

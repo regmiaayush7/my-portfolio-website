@@ -1,26 +1,33 @@
 export const work = [{
         title: 'Contact Keeping App',
-        link:'https://www.w3schools.com/',
+        link:'https://contacttraker.herokuapp.com/',
         linkname: 'contacttracker.com',
-        language: 'ReactJs',
-        description: 'Keep it later'
+        language: 'React, React-hooks, Redux, Express',
+        description: 'Contact keeping web application build using Reactjs, React-hooks, Redux, Express and MongoDB for backend'
     },
     {
         title: 'ShareCalulator App',
-        link:'https://www.w3schools.com/',
+        link:'https://sharecalculator.netlify.app/',
         linkname: 'sharecalculator.com',
         language: 'Vanilla JavaScript',
-        description: 'Keep it later'
+        description: 'Javascript App to keep personal stock market records for purchase and sales'
     },
     {
         title: 'E-commerce Website',
-        link:'https://www.w3schools.com/',
+        link:'https://e-commercelive.herokuapp.com/',
         linkname: 'e-commercelive.com',
-        language: 'ReactJs',
-        description: 'Keep it later'
+        language: 'React, React-router, Redux, firebase',
+        description: 'Crwn clothing is a shopping website with modern functionalities created using React, React-router, Redux, stripe for payment and firebase for user authentication and database'
+    },
+    {
+        title: 'Github Finder',
+        link:'https://githubtrack.netlify.app/',
+        linkname: 'githubtracker.com',
+        language: 'Vanilla Javascript',
+        description: 'pure JavaScript website that scrolls and search through Github users'
     },
  ];
-
+ 
 export const education = [
     {
     schoolname: 'St. Xavier’s College Maitighar, Kathmandu',
@@ -55,7 +62,7 @@ export const languages = [
     {title:'HTML/CSS', proeficiency: '95%'},
     {title:'Javascript', proeficiency: '90%'},
     {title:'React', proeficiency: '85%'},
-    {title:'PHP', proeficiency: '65%'},
+    {title:'Express', proeficiency: '50%'},
     {title:'Wordpress', proeficiency: '60%'},
 ]
 
@@ -65,4 +72,47 @@ export const skills = [
     {title:'Communication', proeficiency: '85%'},
     {title:'Documentation', proeficiency: '90%'},
     {title:'System design, UML diagrams', proeficiency: '85%'},
+]
+
+export const projects =[
+    {
+        title: 'Ecommerce',
+        tech: 'Javascript,React,Redux,Firebase',
+        description: 'Crwn clothing is a shopping website with modern functionalities created using React, React-router, Redux, stripe for payment and firebase for user authentication and database'
+    },
+    {
+        title: 'Contact Keeper',
+        tech: 'Javascript,React,Redux,Express,MongoDB',
+        description: 'Contact keeping web application build using Reactjs, React-hooks, Redux, Express and MongoDB for backend'
+    },    
+    {
+        title: 'Share Calculator',
+        tech: 'HTML/CSS, Javascript',
+        description: 'Javascript App to keep personal stock market records for purchase and sales'
+    },
+    {
+        title: 'Github Finder',
+        tech: 'HTML/CSS, Javascript',
+        description: 'pure JavaScript website that scrolls and search through Github users'
+    },
+    {
+        title: 'Portfolio Website',
+        tech: 'ReactJs',
+        description: 'Responsive website created with React which displays my profolio'
+    },
+    {
+        title: 'education Management System',
+        tech: 'HTML/CSS,Javascript,PHP',
+        description: 'responsive website that handles management of education through web app'
+    },
+    {
+        title: 'doctor Appointment Booking System',
+        tech: 'HTML/CSS,Bootstrap,PHP',
+        description: 'Responsive website to book doctors appointment and to keep track of patients, done for university summer project'
+    },
+    {
+        title: 'DatecountDown',
+        tech: 'Javascript',
+        description: 'Javascript practise Web page that countdowns date'
+    },
 ]

@@ -9,7 +9,7 @@ const Profile = () => {
             <div className="w3-display-bottomleft w3-container w3-text-black">
                 <h2>{profile.name}</h2>
             </div>
-            </div>
+            </div><br />
             <div className="w3-container">
             <p><i className="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>{profile.job}</p>
             <p><i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>{profile.location}</p>
