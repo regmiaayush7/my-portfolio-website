@@ -13,3 +13,18 @@
     display: inline;
     font-size: small;
 }
+
+.theme{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.theme p{
+    width: 100%;
+    padding-left: 6px;
+    font-size: small;
+    display: inline;
+}

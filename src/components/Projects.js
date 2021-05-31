@@ -10,8 +10,9 @@ const Projects = () => {
     })
     return (
         <div>
-        <div className="w3-container w3-card w3-white w3-margin">
-            <input type= 'text' value={search} onChange={(e) => setSearch(e.target.value) }/>
+        <div className="w3-container w3-card w3-margin">
+        <label for="search" style={{marginRight: '10px'}}><i class="fa fa-search"></i></label>
+            <input type= 'text' style={{marginTop: '15px'}} placeholder="Search..." value={search} onChange={(e) => setSearch(e.target.value) }/>
                
             <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>My Other Projects</h2>
                 {
@@ -27,7 +28,7 @@ const Projects = () => {
                         }
                     )
                 }
-                <div className="w3-text-teal w3-container w3-margin"><a href="https://github.com/regmiaayush7" target="_blank">Please Click Here And Visit My Github Account To Find These Projects</a></div>
+                <div className="w3-text-teal w3-container w3-margin"><a href="https://github.com/regmiaayush7" target="_blank" rel="noreferrer">Please Click Here And Visit My Github Account To Find These Projects</a></div>
         </div>
       </div> 
     )

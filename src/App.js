@@ -3,9 +3,13 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Projects from './components/Projects';
 import Code from './components/Code';
+import { useContext } from "react";
+import { ThemeStore } from './components/ThemeContext';
+
 function App() {
+  const [theme, setTheme] = useContext(ThemeStore)
   return (
-    <div className="App">
+    <div className={theme ? 'dark-theme': 'light-theme'}>
       <BrowserRouter>
       <Navigation />
         <Switch>

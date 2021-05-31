@@ -3,7 +3,7 @@ import {profile,languages, skills} from '../utils/work'
 const Profile = () => {
     return (         
         <div>
-        <div className="w3-white w3-text-grey w3-card-4">
+        <div className=" w3-text-grey w3-card-4">
             <div className="w3-display-container">
             <img src='/image/IMG_9565.jpg' style={{width: '100%'}} alt="Avatar" />
             <div className="w3-display-bottomleft w3-container w3-text-black">

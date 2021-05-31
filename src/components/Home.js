@@ -4,7 +4,6 @@ import Intro from './Intro'
 import Profile from './Profile'
 import Work from './Work'
 import Education from './Education'
-import Navigation from './Navigation'
 const Home = () => {
     return (
         <div>   
