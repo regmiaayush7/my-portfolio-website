@@ -59,11 +59,11 @@ export const profile = {
 }
 
 export const languages = [
-    {title:'HTML/CSS', proeficiency: '90%'},
-    {title:'Javascript', proeficiency: '85%'},
-    {title:'React', proeficiency: '75%'},
-    {title:'Express', proeficiency: '50%'},
-    {title:'Wordpress', proeficiency: '60%'},
+    {title:'HTML/CSS', proeficiency: '80%'},
+    {title:'Javascript', proeficiency: '75%'},
+    {title:'React', proeficiency: '70%'},
+    {title:'Express', proeficiency: '40%'},
+    {title:'Wordpress', proeficiency: '50%'},
 ]
 
 export const skills = [
