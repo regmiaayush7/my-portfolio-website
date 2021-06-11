@@ -47,7 +47,7 @@ export const education = [
 ] 
 
 export const aboutme = {
-    info: 'I am a aspiring web developer, currently my focus is on front-end development. I love working with Javascript, my favorite library for front-end is React. My future plan for web development is becoming a fullstack developer for which i am currently working on. So, I would be greatful for the oppurtunity to work with people or organization who can teach me and inspire me to achieve my goals as well as theres. If you are interested, Please let me know.',
+    info: 'I am an aspiring web developer, currently my focus is on front-end development. I love working with Javascript, my favorite library for front-end is React. My future plan for web development is becoming a fullstack developer for which i am currently working on. So, I would be greatful for the oppurtunity to work with people or organization who can teach me and inspire me to achieve my goals as well as theres. If you are interested, Please let me know.',
 }
 
 export const profile = {
@@ -60,10 +60,10 @@ export const profile = {
 
 export const languages = [
     {title:'HTML/CSS', proeficiency: '80%'},
-    {title:'Javascript', proeficiency: '70%'},
+    {title:'Javascript', proeficiency: '75%'},
     {title:'React', proeficiency: '70%'},
     {title:'Express', proeficiency: '40%'},
-    {title:'Wordpress', proeficiency: '50%'},
+    {title:'Wordpress', proeficiency: '45%'},
 ]
 
 export const skills = [
